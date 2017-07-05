@@ -58,6 +58,7 @@ export default class MorphIcon extends React.Component {
       viewBox: "0 0 24 24",
       style: props.style,
       ref: "svgBox",
+      className: props.className,
       // Set inner html shapes
       dangerouslySetInnerHTML: { __html: icons }
     };
